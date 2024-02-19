@@ -1,0 +1,28 @@
+#Andy Wilson
+#02/19/2024
+#P1HW2
+#Basic output with variables
+
+print("This program calculates and displays travel expenses")
+
+budget = int(input("What is your budget?: "))
+next
+dest = input("Where is your travel destination?: ")
+next
+gas = int(input("How much will you spend on gas?: "))
+next
+room = int(input("How much will you spend on accommodation?: "))
+next
+food = int(input("How much will you spend on food?: "))
+next
+expenses =(gas + room + food)
+print("---------------Travel Eexpenses---------------")
+
+print("Location:",dest)
+print("Initial Budget:",budget)
+next
+print("Fuel:",gas)
+print("Accomodation:",room)
+next
+print("Remaining Balance:",budget-expenses)
+
